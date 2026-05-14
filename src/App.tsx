@@ -211,7 +211,7 @@ function Hero() {
   return (
     <section id="hero" className="hero-section">
       <motion.div className="hero-image" style={{ y: imageY }} aria-hidden="true">
-        <img src="/images/allen-hero.svg" alt="" />
+        <img src="/images/allen-hero.jpg" alt="" />
       </motion.div>
       <div className="hero-shade" />
       <div className="hero-content">
