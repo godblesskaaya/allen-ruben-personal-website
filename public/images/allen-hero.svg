@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Editorial portrait style illustration</title>
+  <desc id="desc">A warm dark portrait-inspired visual for Allen Ruben's personal website.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#252922"/>
+      <stop offset=".55" stop-color="#10120f"/>
+      <stop offset="1" stop-color="#070807"/>
+    </linearGradient>
+    <radialGradient id="sun" cx=".55" cy=".32" r=".52">
+      <stop offset="0" stop-color="#e8a045" stop-opacity=".42"/>
+      <stop offset=".45" stop-color="#7fb49a" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#070807" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 .12"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="1200" height="1600" fill="url(#bg)"/>
+  <rect width="1200" height="1600" fill="url(#sun)"/>
+  <g opacity=".22" stroke="#f2ecdd" stroke-width="1">
+    <path d="M160 0v1600M320 0v1600M480 0v1600M640 0v1600M800 0v1600M960 0v1600M1120 0v1600"/>
+    <path d="M0 160h1200M0 320h1200M0 480h1200M0 640h1200M0 800h1200M0 960h1200M0 1120h1200M0 1280h1200M0 1440h1200"/>
+  </g>
+  <g transform="translate(210 210)">
+    <ellipse cx="390" cy="300" rx="170" ry="205" fill="#5a4031"/>
+    <path d="M210 900c20-248 102-392 243-432h113c142 42 224 186 244 432z" fill="#1c211e"/>
+    <path d="M280 930c26-213 86-333 181-374l52 242 57-242c97 41 157 161 181 374z" fill="#101416"/>
+    <path d="M360 485c38 50 91 78 153 78s113-28 151-78v148c-38 52-89 78-153 78s-114-26-151-78z" fill="#6b4837"/>
+    <path d="M225 312c18-155 114-256 284-256 175 0 272 103 289 257-28-51-72-82-133-94-59-12-109-30-150-54-58 47-128 76-210 88-35 8-62 27-80 59z" fill="#161718"/>
+    <path d="M252 302c11 184 115 306 258 306 142 0 246-122 257-306 5-86-45-150-114-157-53-5-95-22-136-50-49 40-109 64-180 72-60 7-90 55-85 135z" fill="#7a5140"/>
+    <path d="M382 371c29-18 62-18 93 0M548 371c31-18 64-18 94 0" stroke="#241812" stroke-width="16" stroke-linecap="round"/>
+    <path d="M492 405c-10 48-20 91-33 128 36 20 76 20 115 0-14-37-25-80-36-128" fill="none" stroke="#583929" stroke-width="10" stroke-linecap="round"/>
+    <path d="M421 536c58 42 122 42 183 0" fill="none" stroke="#d6a28b" stroke-width="12" stroke-linecap="round"/>
+    <path d="M240 922h540" stroke="#e8a045" stroke-width="5" opacity=".5"/>
+  </g>
+  <text x="82" y="1446" fill="#f2ecdd" font-family="Georgia, serif" font-size="86">Allen Ruben</text>
+  <text x="86" y="1512" fill="#a7aa9f" font-family="Arial, sans-serif" font-size="30" letter-spacing="7">CIVIL ENGINEERING / BIM / AI</text>
+  <rect width="1200" height="1600" filter="url(#grain)"/>
+</svg>
