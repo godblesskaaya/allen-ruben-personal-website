@@ -80,7 +80,7 @@ const projects = [
     Icon: Route,
   },
   {
-    title: "AI Everything Kenya 2025",
+    title: "AI Everything Kenya 2026",
     eyebrow: "Virtual participation",
     summary:
       "I am exploring how AI can reshape infrastructure, digital engineering, decision-making, and the future of African development.",
