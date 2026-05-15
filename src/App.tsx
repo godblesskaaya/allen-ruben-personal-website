@@ -12,6 +12,7 @@ import {
   MapPin,
   Menu,
   PenTool,
+  Phone,
   Quote,
   Route,
   SunMedium,
@@ -397,6 +398,16 @@ function Connect() {
           </p>
         </div>
         <div className="connect-actions">
+          <a href="tel:+255675099132">
+            <Phone size={18} />
+            0675099132
+            <ArrowUpRight size={16} />
+          </a>
+          <a href="tel:+255687570753">
+            <Phone size={18} />
+            0687570753
+            <ArrowUpRight size={16} />
+          </a>
           <a href="https://www.linkedin.com/in/allen-ruben/" target="_blank" rel="noreferrer">
             <LinkedInIcon />
             linkedin.com/in/allen-ruben
